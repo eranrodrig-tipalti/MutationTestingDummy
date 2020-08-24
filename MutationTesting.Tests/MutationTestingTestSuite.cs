@@ -19,6 +19,7 @@ namespace MutationTesting.Tests
         {
             if (travelers == null)
             {
+                Console.WriteLine("bla");
                 travelers = _defaultTravelers;
 
             }
