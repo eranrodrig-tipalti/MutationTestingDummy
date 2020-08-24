@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutationTesting", "MutationTestIng\MutationTesting.csproj", "{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutationTesting.Tests", "MutationTesting.Tests\MutationTesting.Tests.csproj", "{EA7BB7E6-E644-45AB-AA1B-BA101F5DA37E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E} = {AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4B2AC1-B95D-440F-A91C-9C9E8056AD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7BB7E6-E644-45AB-AA1B-BA101F5DA37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7BB7E6-E644-45AB-AA1B-BA101F5DA37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7BB7E6-E644-45AB-AA1B-BA101F5DA37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7BB7E6-E644-45AB-AA1B-BA101F5DA37E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C3E89B-42C3-4942-BACF-1D30D88649E7}
+	EndGlobalSection
+EndGlobal
