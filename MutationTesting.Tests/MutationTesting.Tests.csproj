@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MutationTestIng\MutationTesting.csproj" />
+    <ProjectReference Include="C:\Users\eran.rodrig\source\repos\MutationTestIng\MutationTestIng\MutationTesting.csproj" />
   </ItemGroup>
 
 </Project>

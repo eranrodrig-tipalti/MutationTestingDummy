@@ -1,0 +1,29 @@
+{
+  "stryker-config": {
+    "test-runner": "vstest",
+    "reporters": [
+      "Progress",
+      "Html"
+    ],
+    "log-level": "debug",
+    "log-file": true,
+    "timeout-ms": 10000,
+    "max-concurrent-test-runners": 4,
+    "threshold-high": 80,
+    "threshold-low": 70,
+    "threshold-break": 60,
+    "mutate": [
+      "!**/Program.cs",
+      "!**/StartUp/**",
+      "**/*.cs"
+    ],
+    "excluded-mutations": [
+      "string"
+    ],
+    "ignore-methods": [
+      "*Log*",
+      "ToString",
+      "*HashCode*"
+    ]
+  }
+}
